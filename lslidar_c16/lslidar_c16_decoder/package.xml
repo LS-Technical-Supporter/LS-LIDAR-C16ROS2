@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lslidar_c16_decoder</name>
+  <version>1.0.0</version>
+  <description>Point cloud conversions for Leishen C16 LIDARs.</description>
+  <url>http://www.ros.org/wiki/lslidar_c16</url>
+  <maintainer email="yutong@lslidar.com">Yutong</maintainer>
+  <author>Yutong</author>
+  <license>GNC General Public License V3.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>rclpy</build_depend>
+  
+  <exec_depend>angles</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>lslidar_c16_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_msgs</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
